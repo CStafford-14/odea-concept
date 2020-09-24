@@ -3,6 +3,13 @@
     <title>ODEA - Redstone machine kits</title>
     <link rel="stylesheet" href="/reset.css" type="text/css">
     <link rel="stylesheet" href="/standard.css" type="text/css">
+    <script>
+      
+  function toggleLights() {
+  var element = document.getElementById("darkable");
+  element.classList.toggle("darken");
+} 
+    </script>
   </head>
   <header>
     <div class="maxhead">
@@ -19,5 +26,6 @@
   <body>
     <h1>ODEA - A store by Mumbo</h1>
     <p>Unofficial website build in progress by CStafford14</p>
+    <div class="bubble" onclick="toggleLights()"><img src="/img/bulb.png" /></div>
   </body>
 </html>
