@@ -36,6 +36,15 @@ a.mhi:visited,a.mhi:link {
  text-decoration: none;
 }
 
+.bubble {
+ color: rgb(251,255,0);
+ height: 64px;
+ width: 64px;
+ position: absolute;
+ bottom: 15px;
+ right: 15px;
+}
+
 .darken {
   color: white;
   background-color: black;
