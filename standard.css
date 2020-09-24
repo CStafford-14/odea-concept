@@ -22,4 +22,10 @@ Alata: font-family: 'Alata', sans-serif;
  color: rgb(9,63,124);
  font-family: 'Alata', sans-serif;
  font-size: 40px;
+ display: flex;
  }
+
+a.mhi {
+ color: rgb(9,63,124);
+ text-decoration: none;
+}
