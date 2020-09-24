@@ -43,8 +43,9 @@ a.mhi:visited,a.mhi:link {
  position: absolute;
  bottom: 15px;
  right: 15px;
- padding: 4px 18px;
+ padding: 4px;
  border-radius: 64px;
+ display: flex;
 }
 
 .darken {
