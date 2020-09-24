@@ -37,12 +37,14 @@ a.mhi:visited,a.mhi:link {
 }
 
 .bubble {
- color: rgb(251,255,0);
- height: 64px;
- width: 64px;
+ background-color: rgb(251,255,0);
+ height: 60px;
+ width: auto;
  position: absolute;
  bottom: 15px;
  right: 15px;
+ padding: 4px 18px;
+ border-radius: 64px;
 }
 
 .darken {
