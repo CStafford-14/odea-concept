@@ -24,6 +24,8 @@ time, mark, audio, video {
 	vertical-align: baseline;
 	text-decoration: none;
 	z-index: auto;
+	transition-duration: 0.25s;
+	transition-timing-function: ease;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
